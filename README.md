@@ -1,1 +1,0 @@
-# bernardbeard.gethub.io
