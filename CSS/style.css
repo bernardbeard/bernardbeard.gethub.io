@@ -1,0 +1,318 @@
+/* Start Body*/
+body {
+    color: #F01;
+    background-image: url(../Images/bg2.jpg);
+    font-family: 'Times New Roman', Times, serif, Arial, Sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+@media only screen and (max-width:600px){
+ body {
+        font-size: 9px;
+        
+    }
+    .menu-primer li {
+        border-right: 1px solid #000;
+          width: 100%;
+    }
+
+
+}   
+
+/* End Body*/
+
+/* Start debug*/
+.bg-blue{ 
+    
+}
+p{
+    color: red;
+}
+.bg-red{
+    background-color: ;
+}
+/* End debug*/
+
+/* Start Container*/
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+   
+}
+
+.header {
+    background: url(../Images/bg2.jpg);
+    background-size: cover;
+}
+
+/*  End Container*/
+
+/* Start Logo*/
+.logo {
+    text-align: center;
+}
+/* End Logo*/
+
+/* Start Menu primer*/
+.menu-primer ul{
+    background-color:royalblue;
+    border-radius: 4px;
+    box-shadow: 
+     0 5px -1px rgba(red, green, blue, alpha)
+     0 6px 10px 0 rgba(red, green, blue, alpha)
+     0 1px 18px 0 rgba(red, green, blue, alpha)
+
+}
+
+.menu-primer li {
+    border-right: 1px solid #000;
+    display: inline-block;
+    margin:0 -4px;   
+    
+
+}
+
+.menu-primer a{
+    color: #D7D9DB;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 14px;
+    padding:10px 20px;
+    text-transform:uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #333;
+    color: #0000;
+    text-decoration: none;
+
+}
+
+.menu-primer .active {
+    background-color: #D7D9DB;
+    color: #333;
+    text-decoration: none;
+
+}
+
+
+/* End Menu primer*/
+
+
+/* Start Main*/
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two {
+    float: right;
+    width: 49.5%;
+}
+
+.kelasemail {
+    color: #333;
+    text-decoration: none;
+
+
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+        height: 140px; 
+}
+/* End main */
+
+/* Start Box*/
+.box-heading {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+
+}
+
+.box-isi{
+    background-color: #ffffff;
+    border: 1px solid #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+
+
+}
+
+/* End Box*/
+
+/* Start Menu Sekunder*/
+.menu-sekunder {
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 10;
+    text-transform: uppercase;
+
+}
+
+.menu-sekunder ul{
+    padding:0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+
+}
+
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}
+
+.menu-sekunder li img{
+    vertical-align: middle;
+}
+/* End Menu Sekunder*/
+
+/* Start Copyright*/
+.copyright p{
+    font-size: 15px;
+    color: #000;
+}
+/* End Copyright*/
+
+/* Start Effect*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800;);
+.snip1521 {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 70px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 150%;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  background-color: #ffffff;
+  display: inline-block
+}
+
+.snip1521 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.snip1521 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+.snip1521 figcaption {
+  position: absolute;
+  background-color: #fff;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  padding: 5px 20px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  line-height: 1.1em;
+  overflow: hidden;
+  height: 44px;
+}
+
+.snip1521 h3 {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.snip1521 h3.hover {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.snip1521 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1521:hover > img,
+.snip1521.hover > img {
+  opacity: 0;
+}
+
+.snip1521:hover figcaption,
+.snip1521.hover figcaption {
+  background-color: #000000;
+}
+
+.snip1521:hover .title,
+.snip1521.hover .title {
+  -webkit-transform: translateY(-150%);
+  transform: translateY(-150%);
+}
+
+.snip1521:hover .hover,
+.snip1521.hover .hover {
+  -webkit-transform: translateY(-150%);
+  transform: translateY(-150%);
+}
+/* End Effect*/
+
+/* Start untuk hp*/
+@media only screen and (max-width:480px) {
+    .main-home-one {
+        /*float: left;*/
+        width: 100%;
+    }
+    
+    .main-home-two {
+        /*float: right;*/
+        width: 100%;
+    }
+
+}
+/* End untuk hp*/
